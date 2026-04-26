@@ -24,6 +24,6 @@ variable "subnet_id" {
 }
 
 variable "security_group" {
-  type        = string
+  type        = list(string)
   description = "security groups for the instance"
 }
